@@ -12,7 +12,9 @@
       "dest": "/api/webhook.js"
     }
   ],
-  "env": {
-    "FFMPEG_PATH": "/usr/bin/ffmpeg"
+  "functions": {
+    "api/webhook.js": {
+      "maxDuration": 30
+    }
   }
 }
